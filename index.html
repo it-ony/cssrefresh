@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSSrefresh</title>
+
+    <style>
+        html {
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        div {
+            max-width: 50vw;
+            margin: 2em auto;
+        }
+
+        a {
+            float: left;
+            margin-right: 1rem;
+            color: white;
+            background: black;
+            text-decoration: none;
+            font-size: 2em;
+            line-height: 0.8;
+            display: inline-block;
+            border: 1px solid;
+            padding: 0.25em;
+            border-radius: 2px;
+        }
+
+        span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="javascript:(function(script){script=document.createElement('script');script.setAttribute('src','https://it-ony.github.io/cssrefresh/cssrefresh.js');document.getElementsByTagName('head')[0].appendChild(script);})();" title="CSSrefresh">CSS<span>refresh</span></a>
+        <p>Drag this button to your bookmark bar.</p>
+    </div>
+</body>
+</html>
